@@ -1,0 +1,10 @@
+*.o
+*.hi
+*~
+*.swp
+dist/
+cabal-dev/
+.hsenv
+TAGS
+tags
+*.tag
