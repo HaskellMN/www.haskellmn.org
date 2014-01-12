@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>HaskellMN – $title$</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="/css/syntax.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/markdown.css"/>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {
+      inlineMath: [ ["\\(","\\)"] ],
+      displayMath: [ ["\\[","\\]"] ],
+      processEscapes: true
+      },
+      "HTML-CSS": { availableFonts: ["TeX"] }
+      });
+    </script>
+    <script type="text/javascript"
+            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+</head>
+<body>
+<header>
+    <h1><a href="/"><i>HaskellMN</i></a> $if(title)$– $title$$endif$</h1>
+    <hr>
+</header>
+<article>
+$body$
+</article>
+<footer>
+    <hr>
+    <p>Made with <a href="http://jaspervdj.be/hakyll/">Hakyll</a> and <a href="http://www.celador.mn/widely/">Widely</a>.</p>
+    <p>©<script>document.write(new Date().getFullYear().toString())</script>
+    $if(author)$$author$$else$HaskellMN$endif$</p>
+</footer>
+</body>
+</html>

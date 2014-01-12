@@ -8,3 +8,7 @@ cabal-dev/
 TAGS
 tags
 *.tag
+.DS_Store
+#*#
+_*/
+site
