@@ -13,7 +13,7 @@ more information.
 # Events:
 
 - Wednesday, March 12, 2014:
-    - We'll be meeting from 6:30 to 8 pm at [Verdant
+    - We'll be meeting from 6 to 8 pm at [Verdant
       Tea](http://minneapolis.verdanttea.com/), 2111 E Franklin Ave,
       Minneapolis, MN 55404, Minneapolis, MN. Please RSVP either on the
       [Meetup event](http://www.meetup.com/HaskellMN/events/166115392/), or
