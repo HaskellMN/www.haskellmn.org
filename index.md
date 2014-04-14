@@ -10,17 +10,21 @@ Please see our [Meetup](http://www.meetup.com/HaskellMN/) and
 more information.
 
 
-# Events:
+# Upcoming events:
 
-- Wednesday, March 12, 2014:
+- Wednesday, April 16, 2014:
     - We'll be meeting from 6 to 8 pm at [Verdant
       Tea](http://minneapolis.verdanttea.com/), 2111 E Franklin Ave,
       Minneapolis, MN 55404, Minneapolis, MN. Please RSVP either on the
-      [Meetup event](http://www.meetup.com/HaskellMN/events/166115392/), or
+      [Meetup event](http://www.meetup.com/HaskellMN/events/174920022/), or
       via [email](mailto:kyle.marek.spartz@gmail.com), so that if we
       have too many people we can let Verdant know in advance.
 
-- Wednesday, February 12, 2014:
+# Past events:
+
+- Wednesday, March 12, 2014:
+    - ...
+- Wednesday, February 12, 2014
     - We met to work together through the
       [Haskell Koans](https://github.com/HaskVan/HaskellKoans) to
       compare approaches to problem solving.
