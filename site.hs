@@ -33,6 +33,7 @@ main = hakyllWith config $ do
         route $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
+            >>= saveSnapshot "content"
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
 
@@ -49,6 +50,14 @@ main = hakyllWith config $ do
                 >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
+
+    create ["atom.xml"] $ do
+        route idRoute
+        compile $ do
+            let feedCtx = postCtx `mappend` bodyField "description"
+            posts <- fmap (take 10) . recentFirst =<<
+                loadAllSnapshots "posts/*" "content"
+            renderAtom myFeedConfiguration feedCtx posts
 
     match "templates/*" $ compile templateCompiler
 
@@ -75,3 +84,14 @@ postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     defaultContext
+
+
+
+myFeedConfiguration :: FeedConfiguration
+myFeedConfiguration = FeedConfiguration
+    { feedTitle       = "HaskellMN"
+    , feedDescription = "Announcments and information about the Minnesota Haskell users group"
+    , feedAuthorName  = "HaskellMN"
+    , feedAuthorEmail = "haskellmn@googlegroups.com"
+    , feedRoot        = "http://www.haskell.mn"
+    }
