@@ -1,5 +1,9 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
+
+module Main (feedFromCtx, main) where
+
+
 import           Data.Monoid (mappend)
 import           Hakyll
 import           Data.List        (isPrefixOf, isSuffixOf)
@@ -53,13 +57,21 @@ main = hakyllWith config $ do
 
     create ["atom.xml"] $ do
         route idRoute
-        compile $ do
-            let feedCtx = postCtx `mappend` bodyField "description"
-            posts <- fmap (take 10) . recentFirst =<<
-                loadAllSnapshots "posts/*" "content"
-            renderAtom myFeedConfiguration feedCtx posts
+        compile $ feedFromCtx $ bodyField "description" `mappend` postCtx
+
+
+    create ["tweets.xml"] $ do
+        route idRoute
+        compile $ feedFromCtx $ postCtx
 
     match "templates/*" $ compile templateCompiler
+
+
+feedFromCtx :: Context String -> Compiler (Item String)
+feedFromCtx feedCtx = do
+    posts <- fmap (take 10) . recentFirst =<<
+        loadAllSnapshots "posts/*" "content"
+    renderAtom myFeedConfiguration feedCtx posts
 
 
 --------------------------------------------------------------------------------
