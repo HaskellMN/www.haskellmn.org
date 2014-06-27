@@ -7,3 +7,12 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
+.info {
+    font-size: small;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
