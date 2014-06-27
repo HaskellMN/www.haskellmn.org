@@ -16,4 +16,4 @@ answered at the event, please open an issue on
 or ask on the
 [Google Group](https://groups.google.com/forum/#!forum/haskellmn)
 or on the
-[Meetup event](http://www.meetup.com/HaskellMN/events/183278682/).
+[Meetup event](http://www.meetup.com/HaskellMN/events/191666152/).
