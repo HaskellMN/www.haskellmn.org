@@ -1,5 +1,5 @@
 ---
-title: Home
+title: foldr1 arrangeMeetup haskellers
 ---
 
 Hello! We are a user group for the [Haskell](http://www.haskell.org/)
