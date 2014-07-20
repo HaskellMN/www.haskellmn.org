@@ -1,6 +1,7 @@
 ---
 title: Events predating the blog
 description: A listing of meetups that occurred prior to the existence of the blog
+author: <a href="http://kyle.marek-spartz.org/">Kyle Marek-Spartz</a>
 ---
 
 Here are the events that occurred prior to the existence of the blog:

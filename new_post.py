@@ -18,6 +18,7 @@ directory = 'posts'
 
 title = input("What is the title of the post? ")
 description = input("What is the description of the post? ")
+author = input("Who is writing this post?")
 
 
 title_filtered = ''.join([
@@ -38,12 +39,14 @@ full_filename = os.path.join(
 post = """---
 title: {title}
 description: {description}
+author: {author}
 ---
 
 Lorem Ipsum
 """.format(
     title=title,
-    description=description
+    description=description,
+    author=author
 )
 
 

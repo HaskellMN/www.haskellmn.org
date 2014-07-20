@@ -1,6 +1,7 @@
 ---
 title: Haskell Learning Resources
 description: Some links for learning Haskell
+author: <a href="https://twitter.com/tylerholien">Tyler Holien</a>
 ---
 
 Here is a list of links that were mentioned as good resources for learning Haskell at our last meetup.

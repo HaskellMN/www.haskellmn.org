@@ -1,6 +1,7 @@
 ---
 title: July HaskellMN Meetup
 description: Announcing July's HaskellMN Meetup
+author: <a href="http://kyle.marek-spartz.org/">Kyle Marek-Spartz</a>
 ---
 
 The July HaskellMN Meetup will be Wednesday, July 16, 2014, 7-9 pm at [GovDelivery](http://www.govdelivery.com/) on the sixth floor of the Hamm Building (408 St Peter St, St Paul, MN 55102).
