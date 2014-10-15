@@ -1,3 +1,7 @@
+body {
+    max-width: 540px;
+}
+
 hr {
     margin-top: 20px;
     display: block;
@@ -13,6 +17,10 @@ hr {
 }
 
 nav ul li {
-    list-style-type: none;
     display: inline-block;
+    margin-right: 10px;
+}
+
+ul.post-list li, nav ul li {
+    list-style-type: none;
 }
