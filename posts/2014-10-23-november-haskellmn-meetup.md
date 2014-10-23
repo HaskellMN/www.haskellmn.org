@@ -11,7 +11,7 @@ sixth floor of the Hamm Building (408 St Peter St, St Paul, MN 55102).
 Please RSVP either on the
 [Google Group](https://groups.google.com/forum/#!forum/haskellmn)
 or on the
-[Meetup event](http://www.meetup.com/HaskellMN/events/211869402/).
+[Meetup event](http://www.meetup.com/HaskellMN/events/215169882/).
 
 This month, [Tyler Holien](https://twitter.com/tylerholien) will
 present [Milena](https://github.com/tylerholien/milena), his library for
