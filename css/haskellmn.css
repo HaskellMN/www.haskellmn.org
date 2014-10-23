@@ -16,11 +16,10 @@ hr {
     font-size: small;
 }
 
-nav ul li {
-    display: inline-block;
-    margin-right: 10px;
+nav a {
+    margin-right:12px;
 }
 
-ul.post-list li, nav ul li {
+ul.post-list li {
     list-style-type: none;
 }
