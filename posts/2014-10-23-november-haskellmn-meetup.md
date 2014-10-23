@@ -1,7 +1,7 @@
 ---
 title: November HaskellMN Meetup
 description: Kittens and Bits
-author: <a href="http://kyle.marek-spartz.org>Kyle Marek-Spartz</a>
+author: <a href="http://kyle.marek-spartz.org">Kyle Marek-Spartz</a>
 ---
 
 The October HaskellMN Meetup will be Wednesday, November 1,
