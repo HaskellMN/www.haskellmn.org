@@ -13,3 +13,5 @@ tags
 _*/
 site
 *.ld_*
+.cabal-sandbox
+cabal.sandbox.config
