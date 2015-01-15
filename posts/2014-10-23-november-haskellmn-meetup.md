@@ -4,7 +4,7 @@ description: Kittens and Bits
 author: <a href="http://kyle.marek-spartz.org">Kyle Marek-Spartz</a>
 ---
 
-The October HaskellMN Meetup will be Wednesday, November 1,
+The November HaskellMN Meetup will be Wednesday, November 19,
 2014, 7-9 pm at [GovDelivery](http://www.govdelivery.com/) on the
 sixth floor of the Hamm Building (408 St Peter St, St Paul, MN 55102).
 
