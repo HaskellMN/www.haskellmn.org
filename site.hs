@@ -16,6 +16,7 @@ main = hakyllWith config $ do
     match ("favicon.ico"
            .||. "404.html"
            .||. "images/*"
+           .||. "images/*/*"
            .||. "robots.txt"
            .||. "presentations/*"
            .||. "papers/*"

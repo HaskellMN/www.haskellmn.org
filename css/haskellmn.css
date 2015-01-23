@@ -2,6 +2,10 @@ body {
     max-width: 540px;
 }
 
+img {
+    max-width: 540px;
+}
+
 hr {
     margin-top: 20px;
     display: block;
