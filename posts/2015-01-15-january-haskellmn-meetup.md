@@ -10,7 +10,7 @@ sixth floor of the Hamm Building (408 St Peter St, St Paul, MN 55102).
 
 This month, [Kyle Marek-Spartz](http://kyle.marek-spartz.org) will present
 "Algebraic Data Types in C (Tagged Unions!)" and [Andrew
-Clarkson](https://www.github.com/andrewclarkson) will be presenting "Rust Hearts
+Clarkson](https://www.github.com/bitborn) will be presenting "Rust Hearts
 Haskell".
 
 Please RSVP either on the

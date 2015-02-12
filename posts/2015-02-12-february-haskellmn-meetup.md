@@ -9,7 +9,7 @@ The February HaskellMN Meetup will be Wednesday, February 18,
 sixth floor of the Hamm Building (408 St Peter St, St Paul, MN 55102).
 
 This month, [Benjamin Rosas](http://sudo-science.com/) will be presenting "Client-side Programming with Haskell and Friends" and [Andrew
-Clarkson](https://www.github.com/andrewclarkson) will be presenting "Parallel and Concurrent Haskell".
+Clarkson](https://www.github.com/bitborn) will be presenting "Parallel and Concurrent Haskell".
 
 Please RSVP either on the
 [Google Group](https://groups.google.com/forum/#!forum/haskellmn)
