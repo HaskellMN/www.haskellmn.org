@@ -1,7 +1,7 @@
 ---
 title: February HaskellMN Meetup
 description: Announcing our February Meetup
-author: <a href="http://kyle.marek-spartz.org"> Kyle Marek-Spartz</a>
+author: <a href="http://kyle.marek-spartz.org">Kyle Marek-Spartz</a>
 ---
 
 The February HaskellMN Meetup will be Wednesday, February 18,

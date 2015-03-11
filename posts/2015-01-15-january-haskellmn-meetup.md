@@ -1,7 +1,7 @@
 ---
 title: January HaskellMN Meetup
 description: Announcing our January Meetup
-author: <a href="http://kyle.marek-spartz.org"> Kyle Marek-Spartz</a>
+author: <a href="http://kyle.marek-spartz.org">Kyle Marek-Spartz</a>
 ---
 
 The January HaskellMN Meetup will be Wednesday, January 21,
