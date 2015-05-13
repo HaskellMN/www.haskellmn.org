@@ -4,7 +4,7 @@ description: FRP, JavaScript, and PureScript
 author: <a href="http://kyle.marek-spartz.org/">Kyle Marek-Spartz</a>
 ---
 
-The March HaskellMN Meetup will be *Tuesday*, May 19,
+The May HaskellMN Meetup will be *Tuesday*, May 19,
 2015, 7-9 pm at [GovDelivery](http://www.govdelivery.com/) on the
 sixth floor of the Hamm Building (408 St Peter St, St Paul, MN 55102).
 
