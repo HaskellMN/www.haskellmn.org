@@ -19,4 +19,4 @@ Other readings, if you're interested in more:
 Please RSVP either on the
 [Google Group](https://groups.google.com/forum/#!forum/haskellmn)
 or on the
-[Meetup event](http://www.meetup.com/HaskellMN/events/221321222/).
+[Meetup event](http://www.meetup.com/HaskellMN/events/221321241/).
