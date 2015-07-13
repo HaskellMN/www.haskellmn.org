@@ -64,7 +64,7 @@ I wish it were a different week or day of week     2 14%
 No problem with the day of month                  12 86%
 
 
-### Are you a member on our [Meetup page](http://www.meetup.com/HaskellMN/)?
+### Are you a member on our [Meetup page](https://www.meetup.com/HaskellMN/)?
 
 ![](/images/2015-01-22-poll/04.png)
 
