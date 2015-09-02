@@ -5,12 +5,12 @@ The Haskell MN site written with Hakyll for information on meet ups and such.
 
 To build the site generator:
 
-`ghc --make site`
+`stack build`
 
 To build the site:
 
-`./site build`
+`stack exec site build`
 
 To deploy the site:
 
-`./site deploy`
+`stack exec site deploy`
