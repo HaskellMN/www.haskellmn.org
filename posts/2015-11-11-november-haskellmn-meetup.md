@@ -4,7 +4,7 @@ description: Finish Your Stuff
 author: <a href="http://kyle.marek-spartz.org">Kyle Marek-Spartz</a>
 ---
 
-The July HaskellMN Meetup will be Wednesday, November 18,
+The November HaskellMN Meetup will be Wednesday, November 18,
 2015, 7-9 pm at [GovDelivery](https://www.govdelivery.com/) on the
 sixth floor of the Hamm Building (408 St Peter St, St Paul, MN 55102).
 
