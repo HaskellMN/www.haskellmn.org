@@ -1,6 +1,6 @@
 ---
 title: January HaskellMN Meetup
-description: Increasing reliability by encoding more information in the type system
+description: Write US a Scheme in 2 hours
 author: <a href="http://kyle.marek-spartz.org">Kyle Marek-Spartz</a>
 ---
 
