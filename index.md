@@ -1,4 +1,5 @@
 ---
+description: foldr1 arrangeMeetup haskellers
 title: foldr1 arrangeMeetup haskellers
 ---
 

@@ -1,3 +1,7 @@
+---
+description: HaskellMN site
+---
+
 HaskellMN site
 ====
 
