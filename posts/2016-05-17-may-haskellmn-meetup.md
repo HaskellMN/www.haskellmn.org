@@ -9,7 +9,7 @@ The May HaskellMN Meetup will be Wednesday, May 18, 2016, 7-9 pm at
 Building (408 St Peter St, St Paul, MN 55102).
 
 This month, [Tyler Holien](https://twitter.com/tylerholien) will demonstrate a
-natural language generator using trigrams.
+natural language generator using trigrams and talk about new features in GHC 8.
 
 Please RSVP either on the
 [Google Group](https://groups.google.com/forum/#!forum/haskellmn)
