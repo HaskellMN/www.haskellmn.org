@@ -1,5 +1,5 @@
 ---
-title: May HaskellMN Meetup
+title: September HaskellMN Meetup
 description: Highlights of Strangeloop
 author: <a href="http://kyle.marek-spartz.org">Kyle Marek-Spartz</a>
 ---
