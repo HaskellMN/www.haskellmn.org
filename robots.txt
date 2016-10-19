@@ -1,2 +1,3 @@
 User-agent: *
 Crawl-delay: 10
+Disallow: /posts/2016-10-11-october-haskellmn-meetup.html
