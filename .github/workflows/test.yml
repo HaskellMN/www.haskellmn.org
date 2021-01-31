@@ -14,7 +14,7 @@ jobs:
       with:
         ghc-version: '8.10.3'
         enable-stack: true
-        stack-version: 'latest'
+        stack-version: '2.5.1'
     - name: Cache stack global package db and installed programs
       uses: actions/cache@v2
       with:
