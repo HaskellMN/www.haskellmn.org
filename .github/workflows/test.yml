@@ -1,0 +1,28 @@
+name: Test
+
+on:
+  push:
+    branches-ignore:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: haskell/actions/setup@v1
+      with:
+        ghc-version: '8.10.3'
+        enable-stack: true
+        stack-version: 'latest'
+    - name: Cache stack global package db and installed programs
+      uses: actions/cache@v2
+      with:
+        path: ~/.stack
+        key: ${{ runner.os }}-${{ matrix.ghc }}
+    - name: Build
+      run: |
+        stack build
+    - name: Build site
+      run: |
+        stack exec site build
