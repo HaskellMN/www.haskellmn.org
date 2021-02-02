@@ -1,0 +1,39 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    environment: deploy
+    steps:
+    - uses: actions/checkout@v1
+    - uses: haskell/actions/setup@v1
+      with:
+        ghc-version: '8.10.3'
+        enable-stack: true
+        stack-version: '2.5.1'
+    - name: Cache stack global package db and installed programs
+      uses: actions/cache@v2
+      with:
+        path: ~/.stack
+        key: ${{ runner.os }}-${{ matrix.ghc }}
+    - name: Build
+      run: |
+        stack build
+    - name: Build site
+      run: |
+        stack exec site build
+    - name: Upload to S3
+      uses: jakejarvis/s3-sync-action@master
+      with:
+        args: --delete
+      env:
+        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+        AWS_REGION: ${{ secrets.AWS_S3_BUCKET_REGION }}
+        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        SOURCE_DIR: '_site'
