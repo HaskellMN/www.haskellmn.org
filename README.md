@@ -15,6 +15,4 @@ To build the site:
 
 `stack exec site build`
 
-To deploy the site:
-
-`stack exec site deploy`
+The site is deployed via a Github action when a commit is made to master on [github.com/HaskellMN/www.haskell.mn](https://github.com/HaskellMN/www.haskell.mn).
