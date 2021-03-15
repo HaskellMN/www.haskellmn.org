@@ -19,7 +19,7 @@ synopsis:            Source for HaskellMN's website
 -- description:
 
 -- URL for the project homepage or repository.
-homepage:            http://www.haskell.mn
+homepage:            https://www.haskellmn.org
 
 -- The license under which the package is released.
 -- license:

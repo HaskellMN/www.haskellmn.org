@@ -107,5 +107,5 @@ myFeedConfiguration = FeedConfiguration
     , feedDescription = "Announcments and information about the Minnesota Haskell users group"
     , feedAuthorName  = "HaskellMN"
     , feedAuthorEmail = "haskellmn@googlegroups.com"
-    , feedRoot        = "http://www.haskell.mn"
+    , feedRoot        = "https://www.haskellmn.org"
     }
